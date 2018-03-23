@@ -7,11 +7,9 @@ WP76xx or WP77xx module installed. Note that I'm still pretty new to yocto, so i
 questionable in this repository, please let me know and I will try to correct it.
 
 ## What this layer provides
-* Kernel config options required to build bluetooth and drivers as modules
-* Builds the bluez5 recipe
-
-## What is missing
-* Update of the root filesystem to install the firmware blob for the TI WiFi/BT IoT card.
+* Kernel configuration options required to support bluetooth
+* bluez userspace library and utilities
+* TI wl18xx based WiFi/BT IoT card bluetooth firmware
 
 ## How to use this layer
 First, clone this layer into `meta-bluetooth` under the root directory of the WP76/WP77 yocto tree.
